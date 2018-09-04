@@ -22,11 +22,11 @@ resources:
     cpu: 400m
     memory: 512Mi
 probePath: /actuator/health
-#livenessProbe:
-#  initialDelaySeconds: 240
-#  periodSeconds: 60
-#  successThreshold: 0
-#  timeoutSeconds: 0
+livenessProbe:
+  initialDelaySeconds: 240
+  periodSeconds: 60
+  successThreshold: 0
+  timeoutSeconds: 0
 readinessProbe:
   periodSeconds: 240
   successThreshold: 0
