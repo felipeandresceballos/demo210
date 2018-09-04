@@ -31,4 +31,4 @@ readinessProbe:
   periodSeconds: 240
   successThreshold: 0
   timeoutSeconds: 1
-terminationGracePeriodSeconds: 10
+terminationGracePeriodSeconds: 40
